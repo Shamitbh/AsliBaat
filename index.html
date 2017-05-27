@@ -7,7 +7,10 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/main.css" />
 <link rel="stylesheet" href="myStyle.css">
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
@@ -58,21 +61,24 @@ body, html {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
+    
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button navbar">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small navbar"><i class="fa fa-music"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small navbar"><i class="fa fa-spotify"></i> MUSIC</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small navbar"><i class="fa fa-youtube"></i> VIDEO</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small navbar"><i class="fa fa-camera"></i> GALLERY</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small navbar"><i class="fa fa-trophy"></i> AWARDS</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small navbar"><i class="fa fa-envelope"></i> CONTACT</a>
+    
+    <a href="#home" class="w3-bar-item w3-button navbar" ><img src="backgrounds/logo.png" class="navbarlogo"></a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small navbar myTab" style="padding-top:23px;"><i class="fa fa-music"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small navbar myTab" style="padding-top:23px;"><i class="fa fa-spotify"></i> MUSIC</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small navbar myTab" style="padding-top:23px;"><i class="fa fa-youtube"></i> VIDEOS</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small navbar myTab" style="padding-top:23px;"><i class="fa fa-camera"></i> GALLERY</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small navbar myTab" style="padding-top:23px;"><i class="fa fa-trophy"></i> AWARDS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small navbar myTab" style="padding-top:23px;"><i class="fa fa-envelope"></i> CONTACT</a>
+    
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
@@ -111,9 +117,138 @@ body, html {
           <br />
 
 
-<span style="color: #bababa; font-size: 16px;">Our aim is to provide singers and musicians of both South Asian and Western musical backgrounds with a platform to showcase their unique talents. For more information or to enquire about performance availability, <a href="http://aslibaat.com/?page_id=49">Contact Us</a>.</span></p>
+<span style="color: #bababa; font-size: 16px;">Our aim is to provide singers and musicians of both South Asian and Western musical backgrounds with a platform to showcase their unique talents. For more information or to enquire about performance availability, <a href="http://aslibaat.com/?page_id=49">contact Us</a>.</span></p>
     </div>
   </div>
+    
+    <div class="w3-row w3-cell-middle w3-border-bottom ">
+        <h3 class="w3-center">Current Members</h3>
+        
+       <div class="expandbutton w3-center">
+                <a href="javascript:toggle('content')" class="w3-button w3-margin-bottom w3-round-xlarge w3-tiny w3-text-white" style="background-color:#eea410;"><b>Click to Expand</b></a>
+           
+        </div>
+           
+                 <div id="content" class="w3-padding">
+                      <div class="w3-row w3-padding-64">
+       <div class="w3-half award">
+        <div class="w3-row">
+           <img src = "backgrounds/samps.jpg" class="w3-image member" >
+                <div class="w3-half w3-padding-large " style="float:left;">
+                    <h3>Sampreeti Chowdhuri</h3>
+                    <h6 style="color:#eea410">Co-Captain </h6>
+                
+                </div>
+            </div>
+        </div>
+        <div class="w3-half award">
+        <div class="w3-row">
+           <img src = "backgrounds/devika.jpg" class="w3-image member" >
+                <div class="w3-half w3-padding-large" style="float:left;">
+                    <h3>Devika Kumar</h3>
+                    <h6 style="color:#eea410">Co-Captain</h6>
+                    
+                </div>
+            </div>
+        </div>
+    </div>    
+                     
+                         <div class="w3-row w3-padding-64">
+       <div class="w3-half award">
+        <div class="w3-row">
+           <img src = "backgrounds/shilpa.jpg" class="w3-image member" >
+                <div class="w3-half w3-padding-large " style="float:left;">
+                    <h3>Shilpa Sadagopan</h3>
+                    <h6 style="color:#eea410">Musical Director</h6>
+                 
+                </div>
+            </div>
+        </div>
+        <div class="w3-half award">
+        <div class="w3-row">
+           <img src = "backgrounds/shamit.jpg" class="w3-image member" >
+                <div class="w3-half w3-padding-large" style="float:left;">
+                    <h3>Shamit Bhatia</h3>
+                    
+                </div>
+            </div>
+        </div>
+    </div>  
+                     
+            
+              <div class="w3-row w3-padding-64">
+       <div class="w3-half award">
+        <div class="w3-row">
+           <img src = "backgrounds/ram.jpg" class="w3-image member">
+                <div class="w3-half w3-padding-large " style="float:left;">
+                    <h3>Ram Ananth</h3>
+                
+                </div>
+            </div>
+        </div>
+        <div class="w3-half award">
+        <div class="w3-row">
+           <img src = "backgrounds/nams.jpg" class="w3-image member">
+                <div class="w3-half w3-padding-large" style="float:left;">
+                    <h3>Namita Prakash</h3>
+                    
+                </div>
+            </div>
+        </div>
+    </div> 
+                     
+                       <div class="w3-row w3-padding-64">
+       <div class="w3-half award">
+        <div class="w3-row">
+           <img src = "backgrounds/raghav.jpg" class="w3-image member">
+                <div class="w3-half w3-padding-large " style="float:left;">
+                    <h3>Raghav Maheshwari</h3>
+                
+                </div>
+            </div>
+        </div>
+        <div class="w3-half award">
+        <div class="w3-row">
+           <img src = "backgrounds/nimishaAnahat.jpg" class="w3-image member">
+                <div class="w3-half w3-padding-large" style="float:left;">
+                    <h3>Nimisha Patil</h3>
+                    
+                </div>
+            </div>
+        </div>
+    </div>  
+                     
+            <div class="w3-row w3-padding-64">
+       <div class="w3-half award">
+        <div class="w3-row">
+           <img src = "backgrounds/yash.jpg" class="w3-image member">
+                <div class="w3-half w3-padding-large " style="float:left;">
+                    <h3>Yash Pisolkar</h3>
+                
+                </div>
+            </div>
+        </div>
+        <div class="w3-half award">
+        <div class="w3-row">
+           <img src = "backgrounds/nolan.jpg" class="w3-image member">
+                <div class="w3-half w3-padding-large" style="float:left;">
+                    <h3>Nolan Talavou</h3>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+                    
+                
+           </div>
+           
+    
+    
+    
+    
+    
+    
+    </div>
     
     
     
@@ -189,6 +324,42 @@ body, html {
             </div>
         </div>
     </div>
+    
+    <div class="w3-row">
+       <div class="w3-half award">
+        <div class="w3-row w3-padding-32">
+           <img src = "backgrounds/nimsICCAS.jpg" class="w3-image award" style="height:50%; width:50%;">
+                <div class="w3-half w3-padding-large" style="float:left;">
+                    <h3>Best Beatboxer</h3>
+                    <h6 style="color:#eea410">Nimisha Patil </h6>
+                    <p> ICCAs Quaterfinals 2017</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-half award">
+        <div class="w3-row w3-padding-32">
+           <img src = "backgrounds/anahat2014.jpg" class="w3-image award" style="height:50%; width:50%;">
+                <div class="w3-half w3-padding-large" style="float:left;">
+                    <h3>2nd Place</h3>
+                    <h6 style="color:#eea410">USC Asli Baat</h6>
+                    <p> Anahat 2014</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="w3-row">
+       <div class="w3-half award">
+        <div class="w3-row w3-padding-32">
+           <img src = "backgrounds/anahat1stPlace.jpg" class="w3-image award" style="height:50%; width:50%;">
+                <div class="w3-half w3-padding-large" style="float:left;">
+                    <h3>1st Place</h3>
+                    <h6 style="color:#eea410">USC Asli Baat </h6>
+                    <p>Anahat 2012</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
     
   
@@ -258,36 +429,24 @@ We'd love to hear from you!</h3>
  
 <!-- Add Google Maps -->
 <script>
+    function toggle(showHideDiv)
+    {
+        var ele = document.getElementById(showHideDiv);
+        if (ele.style.display == "block")
+            {
+                ele.style.display = "none";
+            }
+        else
+            {
+                ele.style.display = "block";
+            }
+    }
 
-    
-    
-    
-function myMap()
-{
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
 
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
+
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
@@ -306,23 +465,12 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-    
- // Load the IFrame Player API code asynchronously.
-  var tag = document.createElement('script');
-  tag.src = "https://www.youtube.com/player_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-  // Replace the 'ytplayer' element with an <iframe> and
-  // YouTube player after the API code downloads.
-  var player;
-  function onYouTubePlayerAPIReady() {
-    player = new YT.Player('ytplayer', {
-      height: '360',
-      width: '640',
-      videoId: 'M7lc1UVf-VE'
-    });
-  }
+    
+
+    
+
+
     
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>

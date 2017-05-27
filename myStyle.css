@@ -120,6 +120,20 @@ keyframe animations
     float: left;
 }
 
+.member {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
 .navbar {
     color:white;
 }
+
+.navbarlogo {
+    width: 110px;
+    height: 55px;
+}
+
+div.expandbutton div { display:none; }
+
