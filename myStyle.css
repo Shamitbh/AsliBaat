@@ -158,7 +158,7 @@ div.expandbutton div { display:none; }
     
     .youtubeVideo
     {
-        width: auto;
-        height: auto;
+        width: 400px;
+        height: 3000px;
     }
 }
