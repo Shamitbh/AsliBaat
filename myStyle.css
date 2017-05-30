@@ -137,8 +137,8 @@ keyframe animations
 
 .youtubeVideo
 {
-    width: 1000px;
-    height: 720px;
+    width: 100%;
+    height:550px;
 }
 
 div.expandbutton div { display:none; }
