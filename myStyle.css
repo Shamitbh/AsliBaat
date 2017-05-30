@@ -135,6 +135,12 @@ keyframe animations
     height: 55px;
 }
 
+.youtubeVideo
+{
+    width: 1000px;
+    height: 720px;
+}
+
 div.expandbutton div { display:none; }
 
 
@@ -143,10 +149,16 @@ div.expandbutton div { display:none; }
 }
 
 
-@media only sreen and (max-width: 1024px)
+@media only screen and (max-width: 1024px)
 {
     .titleText
     {
-        display: none;
+        font-size:50px;
+    }
+    
+    .youtubeVideo
+    {
+        width: auto;
+        height: auto;
     }
 }
