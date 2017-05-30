@@ -137,3 +137,16 @@ keyframe animations
 
 div.expandbutton div { display:none; }
 
+
+#content {
+    display: none;
+}
+
+
+@media only sreen and (max-width: 1024px)
+{
+    .titleText
+    {
+        font-size: 50px;
+    }
+}
