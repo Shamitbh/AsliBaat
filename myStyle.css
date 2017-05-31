@@ -116,7 +116,7 @@ keyframe animations
 }
 
 .award {
-    float: left;
+    display: block;
 }
 
 .member {
@@ -186,7 +186,8 @@ div.expandbutton div { display:none; }
     
     .member
     {
-        text-align: center;
+        margin-left: 25%;
+        
     }
     
 
