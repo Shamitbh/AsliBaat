@@ -167,4 +167,9 @@ div.expandbutton div { display:none; }
         width: 400px;
         height: 300px;
     }
+    
+    .photobanner
+    {
+        display: none;
+    }
 }
