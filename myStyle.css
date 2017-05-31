@@ -172,4 +172,9 @@ div.expandbutton div { display:none; }
     {
         display: none;
     }
+    
+    #myNavbar
+    {
+        display: none;
+    }
 }
