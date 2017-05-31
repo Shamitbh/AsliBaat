@@ -9,7 +9,6 @@
 }
 
 #container {
-	
 	overflow: hidden;
 	background: black;
 }
@@ -155,6 +154,7 @@ div.expandbutton div { display:none; }
 }
 
 
+
 @media only screen and (max-width: 1024px)
 {
     .titleText
@@ -182,4 +182,10 @@ div.expandbutton div { display:none; }
     {
         display: none;
     }
+    
+    #container
+    {
+        display: none;
+    }
+    
 }
