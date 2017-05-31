@@ -177,4 +177,9 @@ div.expandbutton div { display:none; }
     {
         display: none;
     }
+    
+    .topNavBar
+    {
+        display: none;
+    }
 }
