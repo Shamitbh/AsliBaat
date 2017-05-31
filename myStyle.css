@@ -155,12 +155,13 @@ div.expandbutton div { display:none; }
 
 
 
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 800px)
 {
     .titleText
     {
-        font-size:50px;
+        font-size:100px;
     }
+    
     
     .youtubeVideo
     {
@@ -191,5 +192,14 @@ div.expandbutton div { display:none; }
     }
     
 
+    
+}
+@media only screen and (max-width: 600px)
+{
+    .titleText
+    {
+        display: none;
+    }
+    
     
 }
