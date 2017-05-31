@@ -178,4 +178,17 @@ div.expandbutton div { display:none; }
         display: none;
     }
     
+    .memberText
+    {
+        text-align: center;
+    }
+    
+    
+    .member
+    {
+        text-align: center;
+    }
+    
+
+    
 }
