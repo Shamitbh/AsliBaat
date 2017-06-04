@@ -183,6 +183,7 @@ div.expandbutton div { display:none; }
         height: 300px;
     }
     
+/*
     .photobanner
     {
         display: none;
@@ -192,6 +193,7 @@ div.expandbutton div { display:none; }
     {
         display: none;
     }
+*/
     
     .memberText
     {
@@ -214,6 +216,13 @@ div.expandbutton div { display:none; }
     {
         display: none;
     }
+    
+    #home
+    {
+        display: none;
+    }
+    
+    
     
     
 }
