@@ -154,8 +154,17 @@ div.expandbutton div { display:none; }
 }
 
 
-
 @media only screen and (max-width: 800px)
+{
+    .titleText
+    {
+        font-size: 200px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 750px)
 {
     .titleText
     {
