@@ -155,11 +155,16 @@ div.expandbutton div { display:none; }
 
 
 
-@media only screen and (max-width: 750px)
+@media only screen and (max-width: 800px)
 {
     .titleText
     {
         font-size:100px;
+    }
+    
+    .bgimg-1
+    {
+        max-height: 300px;
     }
     
     
